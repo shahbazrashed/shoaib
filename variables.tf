@@ -35,3 +35,10 @@ variable "bastionhost_name" {
   description = "The name of the basion host"
   default     = "Company-Bastian-Host"
 }
+
+variable "simageid" {
+  type = string
+  description = "Source image ID"
+#default = "/subscriptions/27cxxxxxx-xxxxx-xxxx-axxx-xxxxx6xxxx/resourceGroups/name/providers/Microsoft.Compute/galleries/mycomputegallery/images/Gold-Gallery-Image"
+}
+## Source image ID can be obtained from the image properties in azure 
